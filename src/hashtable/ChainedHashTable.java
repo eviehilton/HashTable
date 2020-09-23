@@ -10,7 +10,7 @@ public class ChainedHashTable {
 The constructor should have a parameter for n, the total number of inputs expected. In the constructor, create the array of size m as the first power of 2 larger than n, full of constructed but empty linked lists at each index. You may choose A directly, or use the integer fraction method.
 There should also be public methods for insert, delete, and search as in the slides/textbook.
 I also want a public printTable method, which runs a loop and prints each linked list in the hash table; consider using the LinkedList class toString method. Alternatively, you can define the toString method to return a string rather than printing it.
-You will need a private helper method named hash. Given an int key, it computes and returns an int index of the table.
+You will need    a private helper method named hash. Given an int key, it computes and returns an int index of the table.
 5 points extra credit: 
 Use a Universal collection of hash functions instead of the multiplication method, for the ChainedHashTable class above. 
 The the prime number p > m and the randomly constants a and b should be chosen in the constructor. 
